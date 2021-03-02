@@ -1,0 +1,436 @@
+/* initialisation des variables */
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: ravie;
+    list-style: none;
+}
+.navbar:hover{
+background-color: yellow;
+transition: 2s;
+}
+.logo a span{
+    color: black;
+    font-size: 25px;
+    font-family: Wide Latin;
+    border: double;
+}
+.logo a span:hover{
+    color: orange;
+    font-size: 30px;
+
+}
+
+
+/* navbar */
+
+nav {
+    width: 100%;
+    background-color: pink;
+    position: fixed;
+}
+
+.navbar .container {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px auto;
+}
+
+
+/* logo */
+
+.logo a {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+   margin-left: -250px;
+}
+
+.logo a span {
+    color: #000;
+}
+
+
+/* gestion des liste  */
+
+.menu {
+    padding-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 25px;
+    transition: color 1s;
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+
+/* gestion de la section 1 */
+
+.section1 {
+    height: 800px;
+    background: url('bg.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 .centre {
+    color: white;
+    margin: auto 120px;
+}
+
+
+/* gestion du texte */
+
+.section1 .global .text1 {
+    font-size: 150px;
+    font-weight: 700;
+    margin-top: 5%;
+    font-family: Edwardian Script ITC;
+    color: black;
+}
+
+.section1 .global .text2 {
+    color: #4B0082;
+    font-size: 150px;
+    font-weight: 600;
+    font-family: Edwardian Script ITC;
+}
+
+.section1 .global .text3 span{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: Edwardian Script ITC;
+    color: yellow;
+}
+
+.section1 .global .btn {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 200;
+    background-color: crimson;
+    color: white;
+    border: 2px solid crimson;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+
+/* en passant la sourie au dessu du bouton */
+
+.section1 .global .btn:hover {
+    background: yellow;
+    color: black;
+}
+
+
+/* a gerrer tout a l'heure */
+
+
+/* marge de notre apropos */
+
+.apropos {
+    margin: 50px 150px;
+}
+
+
+/* apropos du titre */
+
+.apropos .titreModel {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 100px;
+    color: #DB7093;
+}
+
+.apropos .milieu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6 0px;
+}
+
+.apropos .imageGauche {
+    width: 45%;
+}
+
+.apropos .droite {
+    width: 55%;
+}
+
+.apropos .imageGauche img {
+    height: 450px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+.apropos .droite .text {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.apropos .droite .text span {
+    color: crimson;
+}
+
+.apropos .droite p {
+    font-size: 20px;
+    text-align: justify;
+}
+.apropos .btn2 {
+    border: 1px solid black;
+    background-color:pink;
+    padding: 10px;
+    font-size: 12px;
+    font-family: verdana;
+    margin-top: 20px;
+}
+body{
+    background-image: url("fond.jpg");
+}
+
+.apropos .conteneur .droite .btn2{
+     display: inline-block;
+    font-size: 40px;
+    font-weight: 200;
+    background-color: #DA70D6;
+    color: white;
+    border: 2px solid crimson;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.apropos .conteneur .droite .btn2:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+/* troisieme section */
+
+.section3 {
+    margin-left: 95px;
+    height: 500px;
+    width: 80%;
+}
+
+.equipe {
+    text-align: center;
+    font-size: 87px;
+    font-family: ravie;
+    color: crimson;
+    padding-top: 55px;
+}
+
+.equi {
+    text-align: center;
+    font-size: 37px;
+    font-family: agency fb;
+    color: black;
+}
+
+.image {
+    height: 90px;
+    width: 30%;
+    border: white solid;
+}
+
+.ketsia1 img {
+    width: 300px;
+    border-radius: 60%;
+    height: 300px;
+    border: dotted maroon 4px;
+    box-shadow: 560px;
+}
+
+.ketsia2 img {
+    width: 300px;
+    border-radius: 60%;
+    height: 300px;
+    border: dotted maroon 4px;
+    box-shadow: 560px;
+}
+
+.ketsia3 img {
+    width: 300px;
+    border-radius: 60%;
+    height: 300px;
+    border: dotted maroon 4px;
+    box-shadow: 560px;
+}
+
+.ketsia1 {
+    width: 90px;
+    height: 90px;
+}
+
+.ketsia2 {
+    width: 90px;
+    height: 40px;
+}
+
+.ketsia3 {
+    width: 90px;
+    border-radius: 100% white;
+    height: 90px;
+}
+
+table {
+    text-align: center;
+    background: pink;
+    margin-top: 5%;
+    width: 100%;
+    height: 70%;
+    align-content: center;
+    margin-top: 67px;
+}
+
+.jpg2 {
+    padding-top: 25px;
+}
+
+.tex {
+    margin-left: 150px;
+}
+
+.button-2 {
+    margin-left: 350px;
+}
+
+
+/*SECTION 4*/
+.section4 .centre4 {
+    height: 550px;
+    width: 100%;
+    color: black;
+}
+
+.section4 .centre4 .allGauche {
+    float: left;
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 270px;
+}
+
+textarea {
+    margin-top: 9%;
+}
+
+.get {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-family: Chiller;
+    color: #FF7F50;
+}
+
+.icone {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.icone pre {
+    font-size: 15px;
+    color: maroon;
+}
+
+.msg {
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 270px;
+    margin-left: 200px;
+    color: #FF7F50;
+    font-size: 46px;
+    font-family: Chiller;
+}
+
+.input {
+    margin-top: 10px;
+    height: 20px;
+}
+
+.input textarea {
+    width: 250px;
+    height: 200px;
+    border: 2px solid #FF7F50;
+}
+
+.input2 {
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 120%;
+    margin-top: -390px;
+}
+
+.msg .bt button {
+    margin-top: 210px;
+    border: 1px solid pink;
+    background-color:purple;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: serif;
+    margin-right: 20px;
+}
+
+.msg .bt button:hover {
+    color: blue;
+    border: 3px solid;
+   color:  green;
+   background-color: white;
+   border-radius: 50px;
+}
+
+.icone img {
+    width: 50px;
+    height: 50px;
+}
+
+/*.message .input2 .fin input {
+    border-radius: 2px;
+    color: blue;
+    height: 25px;
+}
+
+
+ .message .input1 input {
+    color: blue;
+    height: 25px;
+    margin-bottom: -25px;
+}
+*/
+.final {
+    width: 100%;
+} 
+
+footer .final {
+    width: 100%;
+    background-color: pink;
+    margin-top: 250px;
+    text-align: center;
+    color: black;
+}
+h3{
+    color: #FA8072;
+}
